@@ -1,0 +1,16 @@
+package com.example.myrecipeapp.data.remote.dto
+
+data class AddRecipeResponse (
+    val caloriesPerServing: Int,
+    val cookTimeMinutes: Int,
+    val cuisine: String,
+    val difficulty: String,
+    val image: String,
+    val ingredients: List<String>,
+    val instructions: List<String>,
+    val mealType: List<String>,
+    val name: String,
+    val prepTimeMinutes: Int,
+    val servings: Int,
+    val tags: List<String>,
+)
